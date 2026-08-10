@@ -29,5 +29,9 @@ Geleneksel kelime eşleştirme (LIKE) yöntemleri yerine, kullanıcı sorguları
 ## Kurulum ve Çalıştırma
 
 1. Gerekli kütüphaneleri yükleyin:
-   ```bash
-   pip install pandas pyodbc sentence-transformers streamlit
+pip install pandas pyodbc sentence-transformers streamlit
+
+2. SQL Server 2025 üzerinde VectorDB_Project adında bir veritabanı oluşturun.
+
+3. Uygulamayı başlatın:
+streamlit run app.py
